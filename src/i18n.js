@@ -90,7 +90,7 @@ const resources = {
             desc: 'المنصة الرائدة لخدمات إصلاح الأجهزة الذكية في الإمارات، تتميز بواجهة مستخدم سلسة ونظام حجز متكامل.',
           },
           sharik: {
-            title: 'منصة شريك (Sharke1)',
+            title: 'منصة شارك (Sharke1)',
             desc: 'منصة تفاعلية متميزة تهدف لتعزيز التعاون وتقديم الخدمات الرقمية بأسلوب عصري ومبتكر.',
           },
           fustan: {
@@ -209,7 +209,7 @@ const resources = {
             desc: 'The leading device repair platform in UAE, featuring a seamless UI and integrated booking system.',
           },
           sharik: {
-            title: 'Sharke1 (Sharik)',
+            title: 'Sharke1 (Sharek)',
             desc: 'A premium interactive platform aimed at fostering collaboration and delivering digital services innovatively.',
           },
           fustan: {
