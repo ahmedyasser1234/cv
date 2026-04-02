@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Code, Palette, Cpu, CheckCircle2, X, Zap, ArrowRight, ArrowLeft } from 'lucide-react';
+import { Code, Palette, Cpu, CheckCircle2, X, Zap, ArrowRight, ArrowLeft, Box, Layers, ExternalLink } from 'lucide-react';
 import imgCoding from '../assets/skill_coding.png';
 import imgDesign from '../assets/skill_design.png';
 import imgOffice from '../assets/skill_office.png';
@@ -307,7 +307,7 @@ const Skills = () => {
                       {/* Technique Tags */}
                       <section style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '2.5rem' }}>
                          <h4 style={{ color: 'var(--accent-gold)', fontSize: '0.8rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '2px', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                            <externalLink size={14} /> {isRTL ? 'البرامج والتقنيات المستخدمة' : 'Technologies & Tools Used'}
+                            <ExternalLink size={14} /> {isRTL ? 'البرامج والتقنيات المستخدمة' : 'Technologies & Tools Used'}
                          </h4>
                          <motion.div 
                            initial={{ opacity: 0 }}
