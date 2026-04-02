@@ -248,26 +248,26 @@ const Skills = () => {
 
                 <div style={{ display: 'flex', flexDirection: 'column', height: '100%', marginTop: '-45px' }}>
                    {/* Header Detail Visual */}
-                   <div style={{ height: 'clamp(200px, 40vh, 350px)', position: 'relative', flexShrink: 0 }}>
+                   <div style={{ height: 'clamp(160px, 25vh, 260px)', position: 'relative', flexShrink: 0 }}>
                       <motion.img 
                         layoutId={`img-${selectedGroup.id}`}
                         src={selectedGroup.image} 
                         style={{ width: '100%', height: '100%', objectFit: 'cover', opacity: 0.5 }} 
                       />
-                      <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, #0a0a0a, transparent 70%)' }} />
+                      <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, #0a0a0a, transparent 80%)' }} />
                       
-                      <div style={{ position: 'absolute', bottom: '30px', [isRTL ? 'right' : 'left']: '30px' }}>
-                         <motion.div layoutId={`icon-${selectedGroup.id}`} style={{ color: 'var(--accent-gold)', marginBottom: '0.8rem' }}>
+                      <div style={{ position: 'absolute', bottom: '20px', [isRTL ? 'right' : 'left']: '30px' }}>
+                         <motion.div layoutId={`icon-${selectedGroup.id}`} style={{ color: 'var(--accent-gold)', marginBottom: '0.5rem' }}>
                             {selectedGroup.icon}
                          </motion.div>
-                         <motion.h2 layoutId={`title-${selectedGroup.id}`} className="serif" style={{ fontSize: 'clamp(2rem, 5vw, 3.5rem)', color: '#fff', lineHeight: '1' }}>
+                         <motion.h2 layoutId={`title-${selectedGroup.id}`} className="serif" style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)', color: '#fff', lineHeight: '1' }}>
                             {selectedGroup.title}
                          </motion.h2>
                       </div>
                    </div>
 
                    {/* Body Content */}
-                   <div style={{ padding: 'clamp(1.5rem, 4vw, 3rem)', textAlign: isRTL ? 'right' : 'left', direction: isRTL ? 'rtl' : 'ltr' }}>
+                   <div style={{ padding: '1rem clamp(1.5rem, 4vw, 3rem) 3rem', textAlign: isRTL ? 'right' : 'left', direction: isRTL ? 'rtl' : 'ltr' }}>
                       <section style={{ marginBottom: '3rem' }}>
                          <h4 style={{ color: 'var(--accent-gold)', fontSize: '0.8rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '2px', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
                             <Box size={14} /> {isRTL ? 'نبذة عن الخدمة' : 'About the Service'}
