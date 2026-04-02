@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { GraduationCap, Award, Compass, BarChart3, LayoutTemplate, Calendar, Server, Database, Code2, Globe, Laptop, ShoppingBag, Palette, Brush, Briefcase, Video, Play, Monitor } from 'lucide-react';
+import { GraduationCap, Award, Compass, BarChart3, LayoutTemplate, Calendar, Server, Database, Code2, Globe, Laptop, ShoppingBag, Palette, Brush, Briefcase, Monitor } from 'lucide-react';
 
 const Experience = () => {
   const { t, i18n } = useTranslation();
@@ -43,8 +43,8 @@ const Experience = () => {
   const professionalItems = [
     {
       id: 'aqrablik',
-      icon: <Video size={24} />,
-      bgIcon: <Play size={160} />,
+      icon: <Globe size={24} />,
+      bgIcon: <Code2 size={160} />,
       title: t('experience.aqrablik_title'),
       place: t('experience.aqrablik_place'),
       desc: t('experience.aqrablik_desc'),

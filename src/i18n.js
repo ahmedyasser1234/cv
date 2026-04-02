@@ -70,9 +70,9 @@ const resources = {
         freelance_design_title: 'مصمم عروض تقديمية وبروشورات',
         freelance_design_place: 'خدمات إبداعية مستقلة',
         freelance_design_desc: 'ابتكار تصاميم إبداعية للعروض التقديمية الاحترافية (Pitch Decks) والبروشورات الإعلانية المطبوعة والرقمية بلمسة فنية جذابة.',
-        aqrablik_title: 'متخصص موشن جرافيك وتطوير ويب',
+        aqrablik_title: 'متخصص تطوير مواقع الويب',
         aqrablik_place: 'شركة أقربلك ميديا للدعاية والتصميم',
-        aqrablik_desc: 'يعمل حالياً لدى شركة أقربلك لإدارة وتقديم حلول رقمية إبداعية تشمل الموشن جرافيك، التصميمات الدعائية، وتطوير واجهات الويب المتقدمة.',
+        aqrablik_desc: 'يعمل حالياً لدى شركة أقربلك ميديا لتقديم حلول رقمية متكاملة تشمل تطوير مواقع الويب المتقدمة، التصميمات الدعائية، وتحليل البيانات.',
       },
       languages: {
         title: 'اللغات',
@@ -189,9 +189,9 @@ const resources = {
         freelance_design_title: 'Presentation & Brochure Designer',
         freelance_design_place: 'Creative Independent Services',
         freelance_design_desc: 'Creating innovative designs for professional pitch decks and printed/digital advertising brochures with a modern artistic touch.',
-        aqrablik_title: 'Motion Graphics & Web Specialist',
+        aqrablik_title: 'Web Development Specialist',
         aqrablik_place: 'Aqrablik Media for Advertising & Design',
-        aqrablik_desc: 'Currently working at Aqrablik Media, managing and delivering creative digital solutions including motion graphics, advertising designs, and advanced web development.',
+        aqrablik_desc: 'Currently working at Aqrablik Media, delivering integrated digital solutions including advanced web development, advertising designs, and data analysis.',
       },
       languages: {
         title: 'Languages',
