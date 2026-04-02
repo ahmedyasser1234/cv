@@ -206,30 +206,28 @@ const Skills = () => {
                layoutId={`card-${selectedGroup.id}`}
                className="glass"
                style={{ 
-                 width: '100%', 
+                 width: '95%', 
                  maxWidth: '900px', 
                  maxHeight: '90vh',
                  background: '#0a0a0a', 
                  border: '1px solid rgba(230, 181, 94, 0.3)', 
-                 borderRadius: '40px',
+                 borderRadius: '30px',
                  overflowY: 'auto',
                  boxShadow: '0 50px 150px rgba(0,0,0,0.9)',
-                 position: 'relative',
-                 scrollbarWidth: 'none'
+                 position: 'relative'
                }}
                onClick={(e) => e.stopPropagation()}
              >
-                {/* Close Button - STICKY */}
+                {/* Close Button */}
                 <button 
                   onClick={() => setSelectedGroup(null)}
                   className="modal-close"
                   style={{ 
-                    position: 'sticky', 
-                    top: '20px', 
-                    [isRTL ? 'left' : 'right']: '20px', 
+                    position: 'absolute', 
+                    top: '15px', 
+                    [isRTL ? 'left' : 'right']: '15px', 
                     zIndex: 100,
-                    float: isRTL ? 'left' : 'right',
-                    background: 'rgba(0,0,0,0.5)', 
+                    background: 'rgba(0,0,0,0.6)', 
                     border: '1px solid rgba(255,255,255,0.2)', 
                     borderRadius: '50%', 
                     width: '45px', 
@@ -246,9 +244,9 @@ const Skills = () => {
                   <X size={20} />
                 </button>
 
-                <div style={{ display: 'flex', flexDirection: 'column', height: '100%', marginTop: '-45px' }}>
+                <div style={{ display: 'block' }}>
                    {/* Header Detail Visual */}
-                   <div style={{ height: 'clamp(160px, 25vh, 260px)', position: 'relative', flexShrink: 0 }}>
+                   <div style={{ height: 'clamp(180px, 30vh, 260px)', position: 'relative' }}>
                       <motion.img 
                         layoutId={`img-${selectedGroup.id}`}
                         src={selectedGroup.image} 
