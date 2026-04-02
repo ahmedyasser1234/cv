@@ -13,9 +13,9 @@ const resources = {
         contact: 'تواصل معي',
       },
       hero: {
-        title: 'متخصص في بناء تطبيقات الويب',
+        title: 'متخصص موشن جرافيك وتطوير ويب',
         name: 'أحمد ياسر صالح علي',
-        summary: 'خبير في بناء تطبيقات الويب المتقدمة وتطوير الواجهات، مع خبرة واسعة في برامج التصميم والأوفيس واستغلال أدوات الذكاء الاصطناعي لتقديم حلول متكاملة.',
+        summary: 'خبير في بناء وتطوير تطبيقات الويب المتقدمة والمتاجر الإلكترونية، إلى جانب مهارات احترافية في الموشن جرافيك، التصميمات الإبداعية، وإدارة بيانات المشاريع، لتقديم حلول رقمية وتسويقية متكاملة.',
         cta_contact: 'تواصل معي',
         cta_cv: 'تحميل السيرة الذاتية',
         portfolio: 'معرض الأعمال',
@@ -132,9 +132,9 @@ const resources = {
         contact: 'Contact',
       },
       hero: {
-        title: 'Web Applications Specialist',
+        title: 'Motion Graphics & Web Specialist',
         name: 'Ahmed Yasser Saleh Ali',
-        summary: 'Expert in building advanced web applications and UI development, with deep expertise in design software, MS Office, and leveraging AI tools to deliver complete solutions.',
+        summary: 'Expert in building advanced web applications and e-commerce platforms, combined with professional skills in motion graphics, creative design, and technical data management to deliver comprehensive digital solutions.',
         cta_contact: 'Contact Me',
         cta_cv: 'Download CV',
         portfolio: 'PORTFOLIO',
