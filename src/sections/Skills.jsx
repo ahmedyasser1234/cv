@@ -266,7 +266,7 @@ const Skills = () => {
 
                    {/* Body Content */}
                    <div style={{ padding: '1rem clamp(1.5rem, 4vw, 3rem) 3rem', textAlign: isRTL ? 'right' : 'left', direction: isRTL ? 'rtl' : 'ltr' }}>
-                      <section style={{ marginBottom: '3rem' }}>
+                      <div style={{ marginBottom: '3rem' }}>
                          <h4 style={{ color: 'var(--accent-gold)', fontSize: '0.8rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '2px', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
                             <Box size={14} /> {isRTL ? 'نبذة عن الخدمة' : 'About the Service'}
                          </h4>
@@ -278,9 +278,9 @@ const Skills = () => {
                          >
                            {selectedGroup.details}
                          </motion.p>
-                      </section>
+                      </div>
                       
-                      <section style={{ marginBottom: '3rem' }}>
+                      <div style={{ marginBottom: '3rem' }}>
                          <h4 style={{ color: 'var(--accent-gold)', fontSize: '0.8rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '2px', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
                             <Layers size={14} /> {isRTL ? 'ما الذي أقدمه لك في هذا المجال؟' : 'What I Offer in this Field'}
                          </h4>
@@ -300,10 +300,10 @@ const Skills = () => {
                               </motion.div>
                             ))}
                          </div>
-                      </section>
+                      </div>
 
                       {/* Technique Tags */}
-                      <section style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '2.5rem' }}>
+                      <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '2.5rem' }}>
                          <h4 style={{ color: 'var(--accent-gold)', fontSize: '0.8rem', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '2px', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
                             <ExternalLink size={14} /> {isRTL ? 'البرامج والتقنيات المستخدمة' : 'Technologies & Tools Used'}
                          </h4>
@@ -317,7 +317,7 @@ const Skills = () => {
                               <span key={s} className="glass" style={{ padding: '0.7rem 1.4rem', borderRadius: '12px', fontSize: '0.85rem', fontWeight: 800, color: '#fff', border: '1px solid rgba(255, 230, 150, 0.1)' }}>{s}</span>
                             ))}
                          </motion.div>
-                      </section>
+                      </div>
                    </div>
                 </div>
              </motion.div>
